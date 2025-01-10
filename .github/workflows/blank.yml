@@ -10,4 +10,4 @@ build-aseprite:
   runs-on: ${{ matrix.os }}
   strategy:
       matrix:
-        os: [ windows-latest, ubuntu-latest, macOS-latest ] # <------- remove platform(s) you don't want
+        os: [ windows-latest] # <------- remove platform(s) you don't want
